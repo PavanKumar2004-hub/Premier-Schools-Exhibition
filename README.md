@@ -152,7 +152,8 @@ or use live server extension in vscode to make it simple without any process req
 ## Author
 Created as a front-end assignment project for a job application.
 
-Pavan Kumar
+Jaya Chandra Prakash Pavan Kumar. Putta
+
 Frontend Developer | Backend Developer | Full Stack Web Developer
 
 GitHub: https://github.com/PavanKumar2004-hub
