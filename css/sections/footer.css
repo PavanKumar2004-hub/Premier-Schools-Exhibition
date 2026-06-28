@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Footer
+   Contact details, social links, and copyright bar.
+   ========================================================================== */
+
+.footer {
+    background: linear-gradient(to top, #000E38 0%, #3F186A 100%);
+    margin-top: 60px;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: 140px 1.25fr 1.25fr 0.8fr 0.85fr;
+    gap: 24px;
+    align-items: start;
+    padding: 42px 38px 28px;
+    height: 190px;
+}
+
+.footer__brand img {
+    width: 100px;
+}
+
+.footer__item,
+.footer__social {
+    color: #f4effd;
+}
+
+.footer__item {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__item > img {
+    width: 35px;
+    height: 35px;
+    flex: 0 0 auto;
+}
+
+.footer__item h3,
+.footer__social h3 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer__item p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.55;
+    color: rgba(244, 239, 253, 0.92);
+}
+
+.footer__social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-links a img {
+    width: 38px;
+    height: 38px;
+}
+
+.footer__bottom {
+    background: #ffffff;
+    padding: 12px 16px;
+}
+
+.footer__bottom p {
+    margin: 0;
+    text-align: center;
+        background: linear-gradient(
+        to top,
+        #000E38 0%,
+        #3F186A 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 11px;
+    font-weight: 500;
+}

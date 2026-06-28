@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Appointment CTA
+   Split text/media block encouraging visitors to pre-schedule.
+   ========================================================================== */
+
+.appointment {
+    background: linear-gradient(90deg, #e0c5fc 0%, #dec6fa 42%, rgba(235, 217, 255, 0.18) 68%, rgba(235, 217, 255, 0) 100%);
+}
+
+.appointment__inner {
+    display: grid;
+    grid-template-columns: 46% 54%;
+    min-height: 500px;
+    width: 100%;
+}
+
+.appointment__copy {
+    padding: 100px 70px 70px;
+}
+
+.appointment__eyebrow {
+    margin: 0 0 12px;
+    background: linear-gradient(
+        to right,
+        #9B4DF0 0%,   /* Bottom color */
+        #755797 100%  /* Top color */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.appointment__copy h2 {
+    margin: 0;
+        background: linear-gradient(
+        to top,
+        #000E38 0%,   /* Bottom color */
+        #3F186A 100%  /* Top color */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: clamp(38px, 4vw, 44px);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+}
+
+.appointment__subtext {
+    margin: 10px 0 24px;
+    background: linear-gradient(
+        to right,
+        #9B4DF0 0%,   /* Bottom color */
+        #755797 100%  /* Top color */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 21.5px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.appointment__media {
+    position: relative;
+    overflow: hidden;
+}
+
+.appointment__media::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 27%;
+    background: linear-gradient(90deg, rgba(233, 214, 255, 0.95) 0%, rgba(233, 214, 255, 0.55) 40%, rgba(233, 214, 255, 0) 65%);
+    z-index: 1;
+}
+
+.appointment__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

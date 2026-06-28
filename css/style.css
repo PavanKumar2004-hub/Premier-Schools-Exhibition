@@ -1,0 +1,14 @@
+/*
+  Main stylesheet manifest
+ */
+
+@import url("./sections/base.css");
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/stats.css");
+@import url("./sections/schools.css");
+@import url("./sections/choose.css");
+@import url("./sections/appointment.css");
+@import url("./sections/visit.css");
+@import url("./sections/footer.css");
+@import url("./responsive/breakpoints.css");
